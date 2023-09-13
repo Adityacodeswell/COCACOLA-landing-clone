@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: black;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.navitems {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    width: 60%;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redline {
+    width: 70px;
+    height: 3px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.container {
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textspace {
+    width: 30%;
+}
+
+.headings {
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 2px;
+
+}
+
+.paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.tastenow {
+    display: flex;
+    flex-direction: row;
+    border-radius: 60px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #ff4747;
+    padding: 13px 30px 13px 30px;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.wallpaper{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.dp {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.overlaybox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    background: rgb(27, 8, 8);
+    padding: 10px 10px 10px 10px;
+    font-weight: 500;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 32%;
+    right: 35%;
+    border-radius: 60px;
+    box-shadow: -8px 12px 29px 31px rgba(0,0,0,0.67);
+}
+
+.profdes {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+}
+
+.des {
+    font-weight: 300;
+    font-size: 14px;
+    color: red;
+}
+
+.explorables{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.descrip{
+    display: flex;
+    justify-content: space-between;
+    color: #c2bdbd;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.ingredients{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.circle {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border-color: #c2bdbd;
+    border-width: 4px; 
+}
